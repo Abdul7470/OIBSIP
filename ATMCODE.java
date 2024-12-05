@@ -35,7 +35,7 @@ class BankAccount {
         clrscr();
         System.out.println("Welcome to our bank " + Cst_Name);
         System.out.println();
-        System.out.print("Please enter the Customer ID or PIN: ");
+        System.out.print("Please enter your Customer ID : ");
         Scanner id = new Scanner(System.in);
         String chk = id.nextLine();
         if (chk.equals(Cst_Id)) {

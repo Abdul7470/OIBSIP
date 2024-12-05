@@ -105,9 +105,9 @@ class BankAccount {
         do {
             System.out.println("\n");
             System.out.println("\n");
-            System.out.println("A. Check Balance");
-            System.out.println("B. Deposit");
-            System.out.println("C. Withdraw");
+            System.out.println("A. Check Bank Balance");
+            System.out.println("B. Deposit ");
+            System.out.println("C. Withdraw ");
             System.out.println("D. Previous Transaction");
             System.out.println("E. Transfer");
             System.out.println("F. Exit");
@@ -123,7 +123,7 @@ class BankAccount {
                 case 'A':
                     clrscr();
                     System.out.println("================");
-                    System.out.println("Balance :" + balance);
+                    System.out.println(" Bank Balance :" + balance);
                     System.out.println("================");
                     System.out.println("\n");
                     break;

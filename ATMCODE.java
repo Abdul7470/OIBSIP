@@ -35,7 +35,7 @@ class BankAccount {
         clrscr();
         System.out.println("Welcome to our bank " + Cst_Name);
         System.out.println();
-        System.out.print("Please enter your Customer ID : ");
+        System.out.print("Please enter your Customer ID to login : ");
         Scanner id = new Scanner(System.in);
         String chk = id.nextLine();
         if (chk.equals(Cst_Id)) {
@@ -159,8 +159,8 @@ class BankAccount {
                 case 5:
                     clrscr();
                     System.out.println("...............");
-                    System.out.println(" TO WHOM");
-                    BankAccount bb = new BankAccount("MURTAZA", "1012");
+                    System.out.println("    TO :");
+                    BankAccount bb = new BankAccount("  MURTAZA", "1012");
                     System.out.println(bb.Cst_Name);
                     System.out.println("...............");
                     System.out.println("Amount to Transfer");

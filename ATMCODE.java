@@ -45,6 +45,8 @@ class BankAccount {
             System.out.println("---------------------------------");
             System.out.println("Wrong Login!!");
             System.out.println("---------------------------------");
+            System.out.print("Press Enter to try again...");
+            id.nextLine();
 
             if (flag < 3) {
                 flag++;

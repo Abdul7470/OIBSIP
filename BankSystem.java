@@ -110,14 +110,16 @@ class Account {
         int option;
 
         do {
-            System.out.println("\nMenu:");
+            System.out.println("\n         MENU: ");
+            System.out.print("--------------------------\n");
             System.out.println("1. View Balance");
             System.out.println("2. Deposit");
             System.out.println("3. Withdraw");
             System.out.println("4. View Last Transaction");
             System.out.println("5. Transfer");
             System.out.println("6. Exit");
-            System.out.print("Choose an option: ");
+            System.out.print("--------------------------\n");
+            System.out.print("  Choose an option: ");
             option = scanner.nextInt();
 
             switch (option) {
